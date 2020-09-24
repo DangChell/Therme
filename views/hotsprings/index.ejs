@@ -1,0 +1,35 @@
+<%- include("../partials/header") %>
+
+<div class="container">
+  <header class="jumbotron">
+    <div class="container">
+      <h1>Welcome to Therme!</h1>
+      <p>Explore Hot Springs Around the World</p>
+      <p>
+        <a href="/hotsprings/new" class="btn btn-primary btn-lg"
+          >Add New Hot Spring</a
+        >
+      </p>
+    </div>
+  </header>
+
+  <div class="row text-center" style="display:flex; flex-wrap: wrap;">
+    <% hotsprings.forEach(function(hotspring){ %>
+    <div class="col-md-3 col-sm-6">
+      <div class="thumbnail">
+        <img src="<%= hotspring.image %>" />
+        <div class="caption">
+          <h4><%=hotspring.name %></h4>
+        </div>
+        <p>
+          <a href="/hotsprings/<%= hotspring._id %>" class="btn btn-primary"
+            >More Info</a
+          >
+        </p>
+      </div>
+    </div>
+    <% });%>
+  </div>
+</div>
+
+<%- include("../partials/footer") %>
