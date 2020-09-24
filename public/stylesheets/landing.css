@@ -41,10 +41,10 @@ body {
 
 /* background images */
 .slideshow li:nth-child(1) {
-  background-image: url(https://mini-adventures.com/wp-content/uploads/2017/03/things-to-do-in-budapest-8.jpg);
+  background-image: url(https://www.vamed.com/media/3162/therme-wien-dampf.jpg?anchor=center&mode=crop&width=1280&height=800&rnd=131086709320000000);
 }
 .slideshow li:nth-child(2) {
-  background-image: url(https://www.vamed.com/media/3162/therme-wien-dampf.jpg?anchor=center&mode=crop&width=1280&height=800&rnd=131086709320000000);
+  background-image: url(https://mini-adventures.com/wp-content/uploads/2017/03/things-to-do-in-budapest-8.jpg);
   animation-delay: 10s;
 }
 .slideshow li:nth-child(3) {

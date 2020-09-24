@@ -2,7 +2,6 @@ const express = require('express');
 const mongoose = require('mongoose');
 require('dotenv').config();
 
-console.log(process.env);
 const app = express();
 const flash = require('connect-flash');
 const passport = require('passport');
